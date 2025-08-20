@@ -1,5 +1,6 @@
 export const DATA = {
   "Miraflores": {
+    type: ["Departamento","Casa","Terreno"],
     base: 8735, // promedio m² (Infobae agosto 2025)
     zones: {
       "Malecón / Larco / Kennedy (Prime)": 10000,
@@ -12,6 +13,7 @@ export const DATA = {
     }
   },
   "San Isidro": {
+    type: ["Departamento","Casa","Terreno"],
     base: 9223, // promedio m²
     zones: {
       "Golf / Olivar (Prime)": 12163,
@@ -24,6 +26,7 @@ export const DATA = {
     }
   },
   "Barranco": {
+    type: ["Departamento","Casa","Terreno"],
     base: 9486, // promedio m²
     zones: {
       "Malecón (Prime)": 10024,
@@ -35,5 +38,6 @@ export const DATA = {
       "Zona Alta": 11000
     }
   }
+
 
 
