@@ -2,7 +2,7 @@
   "Miraflores": {
     type: ["Departamento","Casa","Terreno"],
     base: 8735, // promedio m² (Infobae agosto 2025)
-    zones: {
+    subzona: {
       "Malecón / Larco / Kennedy (Prime)": 10000,
       "Central / Parque Kennedy": 8768,
       "Interior Residencial": 8300,
@@ -15,7 +15,7 @@
   "San Isidro": {
     type: ["Departamento","Casa","Terreno"],
     base: 9223, // promedio m²
-    zones: {
+    subzona: {
       "Golf / Olivar (Prime)": 12163,
       "Centro Financiero": 9285,
       "Country Club": 9700,
@@ -28,7 +28,7 @@
   "Barranco": {
     type: ["Departamento","Casa","Terreno"],
     base: 9486, // promedio m²
-    zones: {
+    subzona: {
       "Malecón (Prime)": 10024,
       "Central / Av. San Martín": 9486,
       "Nuevo Barranco": 10158,
@@ -38,6 +38,7 @@
       "Zona Alta": 11000
     }
   }
+
 
 
 
