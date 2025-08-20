@@ -35,4 +35,5 @@ export const DATA = {
       "Zona Alta": 11000
     }
   }
-};
+
+
