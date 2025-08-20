@@ -1,4 +1,4 @@
-export const DATA = {
+ const DATA = {
   "Miraflores": {
     type: ["Departamento","Casa","Terreno"],
     base: 8735, // promedio m² (Infobae agosto 2025)
@@ -38,6 +38,7 @@ export const DATA = {
       "Zona Alta": 11000
     }
   }
+
 
 
 
